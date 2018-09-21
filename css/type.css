@@ -1,0 +1,419 @@
+body{
+	font-family: "Times New Roman", Times, serif;
+	margin: 0 auto;
+}
+#myBtn {
+	height: 60px;
+	width: 60px;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  background-color: orange;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  opacity:0.5;
+  box-shadow: 1px 1px 15px;
+}
+#myBtn:hover {
+  background-color: #555;
+  transition: all 0.4s ease 0s;
+}
+#my_chose_us{
+	text-align:center;
+}
+#my_chose_us h1{
+	margin-top: 0px;
+}
+#clear_both{
+	clear: both;
+}
+#clear_left{
+	clear: left;
+}
+#header{
+	width: 100%;
+	height: auto;
+	background-color: #f9ca7f;
+	position: fixed;
+	opacity: 0.8;
+	z-index: 3;
+}
+#logo{
+	float: left;
+	margin-left: 50px;
+	margin-top:5px;
+}
+#header #topbar{
+	list-style: none;
+}
+#header #topbar a{
+float: left;
+display: block;
+padding-top:20px;
+padding-left: 6%;
+}
+#header #topbar #iconmenu{
+	display: none;	
+}
+#header #topbar a {
+  letter-spacing: 0;
+}
+ 
+#header #topbar a:hover,
+#header #topbar a:active {
+  letter-spacing: 5px;
+}
+ 
+#header #topbar a:after,
+#header #topbar a:before {
+  backface-visibility: hidden;
+  border: 1px solid rgba(255, 255, 255, 0);
+  bottom: 0px;
+  content: " ";
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  transition: all 280ms ease-in-out;
+  width: 0;
+}
+ 
+#header #topbar a:hover:after,
+#header #topbar a:hover:before {
+  backface-visibility: hidden;
+  border-color: #fff;
+  transition: width 350ms ease-in-out;
+  width: 70%;
+}
+ 
+#header #topbar a:hover:before {
+  bottom: auto;
+  top: 0;
+  width: 70%;
+}
+#header #topbar  a{
+	text-decoration:none;
+	color: white;
+}
+#banner{
+	background-image: url("../image/background.png");
+	height: auto;
+    background-position: center;
+    background-size: cover;
+
+}
+#banner #color{
+	background-color: black;
+	opacity: 0.8;
+	height: auto;
+}
+#banner #contentone{
+	margin-top: 0px;
+	text-align: center;
+	padding-top: 100px;
+   padding-bottom: 30px;
+   color: white;
+   font-size: 40px;
+}
+#banner #contentwo{
+text-align: center;
+	padding-top: 0px;
+   padding-bottom: 30px;
+   font-size: 25px;
+   color: #ffa51e;
+}
+#my_info{
+	height: 65px;
+	text-align:center;
+	background-color: white;
+	opacity: 0.8;
+}
+#my_info h1{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align:center;
+}
+video{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#articleone{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	opacity: 0.8;
+}
+#articleone #content{
+	width: 50%;
+	height: auto;
+	margin-left: 20px;
+}
+#articleone #content h2{
+	margin-top: 0px;
+}
+#articleone #video{
+	width: 50%;
+	height: 393px;
+	float: right;
+}
+#articletwo{
+	background-color: white;
+	opacity: 0.8;
+}
+#articletwo #image{
+	width: 54%;
+	float: right;
+	height: auto;
+}
+#articletwo #content{
+	width:46%;
+	height: auto; 
+}
+#articletwo #content p{
+	margin-left: 20px;
+	margin-right: 10px;
+}
+#articletwo #content #flash img{
+	margin-left: 20px;
+	float:left;
+}
+#articletwo #content #High-Quality img{
+	margin-left: 20px;
+	float:left;
+}
+#articletwo #content #Best-Service img{
+	margin-left: 20px;
+	float:left;
+}
+#contenth3{
+	margin-bottom: 3px;
+}
+#flash img{
+	margin-right: 10px;
+}
+#High-Quality img{
+	margin-right: 10px;
+}
+#Best-Service img{
+	margin-right: 10px;
+}
+#serviceall{
+	height: auto;
+	background-color: black;
+	opacity: 0.7;
+	width: 100%;
+}
+#data{
+	text-align:center;
+	color: black;
+}
+#serviceall #content{
+	text-align:center;
+	margin-right: 100px;
+}
+#serviceall #content h1{
+	color: white;
+}
+#service{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+#data{
+	background-color: white;
+	opacity: 0.6;
+	margin: 20px;
+	height: 321.438px;
+	width: 80%;
+	padding-top: 10px;
+
+}
+#call{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	opacity: 0.8;
+	text-align:center;
+	color: white;
+}
+#call h3{
+	margin-top: 0px;
+}
+#call h1{
+	margin-bottom: 0px;
+}
+#info{
+	background-color: white;
+	opacity: 0.8;
+}
+#info #image{
+	height: auto;
+	width: 60%;
+	float: right;
+}
+#info #content{
+	height: auto;
+	width: 40%;
+}
+#info #content #contact_info h1{
+	margin-top: 0px;
+}
+#info #content #contact_info{
+	text-align:center;
+}
+#contentcolums img{
+	float: left;
+	margin-top: 7px;
+}
+#contentcolums{
+	margin-left: 20px;
+}
+#contentcolums h3{
+	text-align:center;
+}
+#line #content{
+	float: right;
+	width: 55%;
+}
+#send_info{
+	text-align:center;
+}
+#button{
+margin-top: 10px;
+width: 20%;
+height: 30px;
+color: white;
+background-color: black;
+border:none;
+border-radius: 4px;
+}
+#button:hover{
+	 background-color:#d0f6e6;
+    transition-duration: 1.2s;
+}
+#name,#imail,#phone{
+	height: 30px;
+	padding-left:5px;
+	margin-top: 10px;
+	width: 50%;
+	border-radius: 4px;
+}
+#mess{
+	border-radius: 4px;
+	height: 100px;
+	margin-top: 10px;
+	padding-top: 2px;
+	padding-left:5px;
+	width: 50%;
+}
+#line{
+	background-color: #5b6b84;
+	opacity: 0.8;
+}
+#line #image{
+	height: auto;
+	width: 45%;
+}
+#foter{
+	height: 50px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align:center;
+    margin-top: 0px;
+}
+#foter h4{
+	padding-top: 10px;
+}
+#video_background {
+position: fixed;
+bottom: 0px;
+right: 0px;
+min-width: 100%;
+min-height: 100%;
+z-index: -1000;
+overflow: hidden;
+}
+@media screen and (max-width: 767px){
+#articleone #content{
+	width: 100%;
+}
+#articleone #video{
+	width: 100%;
+	height: auto;
+}
+#articletwo #image{
+	width: 100%;
+}
+#articletwo #content{
+	width:100%;
+}
+#serviceall #content{
+	text-align:center;
+	margin-right: 0px;
+}
+#service{
+	display: grid;
+	grid-template-columns: auto;
+}
+#data{
+	background-color: white;
+	opacity: 0.8;
+	margin: 20px;
+	height: auto;
+	width: auto;
+	padding-top: 10px;
+	text-align:center;
+
+}
+#info #image{
+	height: auto;
+	width: 100%;
+	float: right;
+}
+#info #content{
+	height: auto;
+	width: 100%;
+}
+#line #image{
+	height: auto;
+	width: 100%;
+}
+#line #content{
+	float: right;
+	width: 100%;
+}
+#banner #contentone{
+	margin-top: 0px;
+	text-align: center;
+	padding-top: 100px;
+   padding-bottom: 30px;
+   color: white;
+   font-size: 20px;
+}
+#name,#imail,#phone,#mess{
+	width: 80%;
+}
+#header #topbar a{
+	display: none;
+}
+#header #topbar #iconmenu{
+	float: right;
+	display: block;
+	padding-top: 16px;
+}
+ .myTopnav.respon{
+ 	position: relative;
+ }
+ .myTopnav.respon #iconmenu{
+ 	position: absolute;
+ 	right: 0;
+ 	top: 0;
+ }
+ .myTopnav.respon a{
+ 	float: none;
+ 	display: block;
+ 	text-align:left;
+ }
+}
